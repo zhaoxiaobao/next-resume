@@ -19,14 +19,14 @@ export default function Educations({ data }: Props): ReactElement {
       <View style={s.wrapper_header}>
         <Text>教育背景</Text>
       </View>
-      <View>
+      <View style={{fontSize: 9}}>
         {data.map((item, index) => {
           return (
             <View style={s.mb8} key={index}>
               <View style={s.flex_row}>
                 <Text>{item.school}</Text>
                 {Array.isArray(item.time) && item.time.join("") !== "" ? (
-                  <Text>{item.time.join("/")}</Text>
+                  <Text >{item.time.join("/")}</Text>
                 ) : null}
               </View>
 
