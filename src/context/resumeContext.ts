@@ -91,7 +91,7 @@ export const initialState = {
       name: "毕马威电子会计凭证平台",
       role: "前端负责人",
       time: ["2022.12", "2023.10"],
-      // desc: "旨在打造一个财税领域的数据湖",
+      desc: "旨在打造一个财税领域的数据湖",
       content: 
       `
         - 项目中引入过graphql，封装通用request请求；
